@@ -7,7 +7,7 @@ class ProductSerializer
     serialized_product += '"title": "' + product.name + '", '
     serialized_product += '"price": "' + product.price + '", '
     serialized_product += '"inventory": "' + product.inventory + '", '
-    serialized_product += '"description": "' + product.description + '", '
+    serialized_product += '"description": "' + product.description + '"'
 
     serialized_product += '}'
   end
